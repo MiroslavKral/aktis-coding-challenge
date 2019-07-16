@@ -1,0 +1,38 @@
+{
+  "name": "aktis-coding-challenge",
+  "version": "1.0.0",
+  "description": "Aktis Conding Challenge in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watch",
+    "tsc": "tsc",
+    "lint": "eslint \"./src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiroslavKral/aktis-coding-challenge.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Miroslav Kral <miroslav.kral.86@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiroslavKral/aktis-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/MiroslavKral/aktis-coding-challenge#readme",
+  "devDependencies": {
+    "@types/jest": "24.0.15",
+    "@typescript-eslint/eslint-plugin": "1.12.0",
+    "@typescript-eslint/parser": "1.12.0",
+    "eslint": "6.0.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "jest": "24.8.0",
+    "prettier": "1.18.2",
+    "ts-jest": "24.0.2",
+    "ts-node": "8.3.0",
+    "typescript": "3.5.3"
+  }
+}
